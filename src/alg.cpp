@@ -34,7 +34,7 @@ int getPrior(char inf) {
 }
 
 std::string infx2pstfx(std::string inf) {
- int count = 0, count1 = 0, count2 = 0;
+    int count = 0, count1 = 0, count2 = 0;
     std::string res;
     std::string exit;
     for (auto c : inf) {
@@ -123,7 +123,7 @@ int operat(char oper) {
 }
 
 int eval(std::string pref) {
- int count = 0;
+    int count = 0;
     for (auto c : pref) {
         count += 1;
     }
