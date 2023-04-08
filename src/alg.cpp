@@ -2,7 +2,6 @@
 #include <string>
 #include <map>
 #include "tstack.h"
-
 TStack <char, 100> charstack;
 TStack <char, 100> vixod;
 TStack <int, 100> intstack;
